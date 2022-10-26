@@ -1,0 +1,20 @@
+What is an Object?
+  An object can be thought of as a Container, that has state(attributes/data) and behaviour(methods/functionality).
+
+How to Create an Object?
+  Classes are blueprints/templates that are used to create the objects.
+  Classes are also called as types.
+  Objects created of a type/class are called instances of that type/class.
+
+What are Classes?
+  Classes are themselves objects in python,they have:
+    1. Attributes - Eg : __name__
+    2. Behaviour - Eg : __init__
+  Classes are created from the 'type' metaclass.
+  Classes are callable ,Eg: MyClass() and return instance an instance of the class.
+  The type of the returned instance is MyClass.
+  Eg : my_obj = MyClass()
+       type(my_obj) -> MyClass -> (object,classes are objects)
+       isinstance(my_obj, MyClass) -> True
+  
+  
