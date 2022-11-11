@@ -12,3 +12,14 @@ isinstance(my_obj, MyClass) -> True
 ```
 also called class instantiation
 or instantiating the class
+
+## Instantiating Classes
+  When we call a class, a class instance object is created
+  This class instance object has its own namespace
+  * -> distinct from the namespace of the class that was used to create the object
+  
+  This object has some attributes Python automatically implements for us:
+  * -> ```__class__``` tells us which class was used to instantiate the object
+  * -> ```__dict__``` is the object's local namespace
+  
+  prefer using ``` type(obj) ``` instead of ``` obj.__class__ ```
