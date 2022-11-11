@@ -1,8 +1,7 @@
-Defining Class Attributes in Python
-  
-  class MyClass:
-    language = 'Python'
-    version = '3.6'
+## Defining Class Attributes in Python
+  ``` class MyClass:
+        language = 'Python'
+        version = '3.6' ```
     
   version and language are attributes of class MyClass
   
