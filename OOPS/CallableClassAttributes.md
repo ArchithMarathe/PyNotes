@@ -19,9 +19,9 @@ MyClass.__dict__ -> mappingproxy({'language': 'Python','say_hello': <function __
 ## How do we call it?
 
 ### We could get it straight from the namespace dictionary:
-1. ``` my_func = MyClass.__dict__['say_hello'] ```
+## 1. ``` my_func = MyClass.__dict__['say_hello'] ```
    ``` my_func() -> 'Hello World!' ```
-2.``` MyClass.__dict__['say_hello']() -> 'Hello World!' ```
+## 2.``` MyClass.__dict__['say_hello']() -> 'Hello World!' ```
 
 ### or we could use getattr:
 ``` getattr(MyClass, 'say_hello')() -> 'Hello World!' ```
