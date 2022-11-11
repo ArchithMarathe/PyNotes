@@ -35,3 +35,15 @@ when we call MyClass('3.7')<br/>
       * -> ``` obj.__dict__ ``` -> {'version': '3.7'}
 
 a standard convention is to use an argument named self
+
+
+## Important!
+By the time ```__init__``` is called
+Python has already created the object and a namespace for it (like a ```__dict__``` in most cases) <br/>
+then ```__init__``` is called as a method bound to the newly created instance
+
+We can actually also specify a custom function to create the object<br/>
+```__new__```<br/>
+we'll come back to this later <br/>
+
+But ```__init__``` is not creating the object, it is only running some code after the instance has been created.
