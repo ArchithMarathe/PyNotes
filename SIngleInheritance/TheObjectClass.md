@@ -22,12 +22,12 @@ class Person(object):
 ## Implications of inheriting from object
 * -> any class we create automatically inherits behaviors and attributes from the object class :
 ```python
-* -> __name__
-* -> __init__
-* -> __repr__
-* -> __hash__
-* -> __new__
-* -> __eq__
+-> __name__
+-> __init__
+-> __repr__
+-> __hash__
+-> __new__
+-> __eq__
 ```
 and many more…
 ### So even if we create an "empty" class: 
